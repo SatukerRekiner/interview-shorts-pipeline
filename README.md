@@ -10,6 +10,14 @@
 An end-to-end Python pipeline for turning long-form interviews into short-form YouTube content.  
 It automates clip discovery, raw clip extraction, AI-assisted editing, metadata generation, and scheduled publishing into a repeatable content production workflow.
 
+## Managed Channels (100% automated by this code)
+
+- **PitchWarrior** — https://www.youtube.com/@PitchWarrior  
+  ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/<PITCHWARRIOR_CHANNEL_ID>?style=flat&logo=youtube)
+
+- **TheInterviewEmpire** — https://www.youtube.com/@TheInterviewEmpire  
+  ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/<THEINTERVIEWEMPIRE_CHANNEL_ID>?style=flat&logo=youtube)
+  
 ---
 
 ## Project Overview
