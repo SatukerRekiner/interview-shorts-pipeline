@@ -13,7 +13,7 @@ It automates clip discovery, raw clip extraction, AI-assisted editing, metadata 
 ## Managed Channels (100% automated by this code)
 
 - **PitchWarrior** — https://www.youtube.com/@PitchWarriorr  
-  ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/<PITCHWARRIOR_CHANNEL_ID>?style=flat&logo=youtube)
+  ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UC3uc3-cJGavJTD64n7rX_0A?style=flat&logo=youtube)
 
 - **TheInterviewEmpire** — https://www.youtube.com/@TheInterviewEmpire  
   ![YouTube Channel Views](https://img.shields.io/youtube/channel/views/<THEINTERVIEWEMPIRE_CHANNEL_ID>?style=flat&logo=youtube)
