@@ -5,7 +5,6 @@
 ![Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-4285F4)
 ![AssemblyAI](https://img.shields.io/badge/STT-AssemblyAI-6C47FF)
 ![YouTube API](https://img.shields.io/badge/API-YouTube%20Data%20API-FF0000?logo=youtube&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Portfolio%20Project-2EA44F)
 
 An end-to-end Python pipeline for turning long-form interviews into short-form YouTube content.  
 It automates clip discovery, raw clip extraction, AI-assisted editing, metadata generation, and scheduled publishing into a repeatable content production workflow.
