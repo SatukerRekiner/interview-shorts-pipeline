@@ -66,7 +66,17 @@ It is a strong example of building a system that creates business value by reduc
 → `Finished videos staged in Drive`  
 → `Scheduled YouTube upload + metadata generation`
 
-### [Insert Architecture Diagram Here]
+
+```mermaid
+flowchart LR
+  A[wywiady.txt<br/>YouTube interview URLs] --> B[clip_extractor.py<br/>Transcript fetch + Gemini segment selection<br/>yt-dlp download + clip export]
+  B --> C[./do_obrobki<br/>Raw clips 20–60s]
+  C --> D[video_editor.py<br/>Subtitles AssemblyAI<br/>Overlays / SFX / music<br/>Optional TTS ElevenLabs<br/>Gemini edit planning]
+  D --> E[./gotowe<br/>Final edited shorts]
+  E --> F[Google Drive<br/>Staging folder / queue]
+  F --> G[youtube_scheduler.py<br/>Metadata Gemini<br/>Upload to YouTube<br/>Thumbnail best-effort]
+  G --> H[YouTube Channel<br/>Published Shorts]
+```
 
 ### Pipeline stages
 
