@@ -223,15 +223,14 @@ This project integrates with several external APIs. The table below shows **wher
 
 | Service | Used In | Purpose | Local Setup Required |
 |---|---|---|---|
-| Google Gemini | `clip_extractor.py` | Select best transcript segments | `GEMINI_API_KEY` in `.env` |
-| Google Gemini | `video_editor.py` | Plan overlays/commentary and generate assets | `GOOGLE_API_KEY` or `GEMINI_API_KEY`, or local `gemini_config.json` |
-| Google Gemini | `youtube_scheduler.py` | Generate YouTube title + description | `GEMINI_API_KEY` |
+| Google Gemini | `clip_extractor.py`,`video_editor.py`,`youtube_scheduler.py` | Select best transcript segments, Plan overlays/commentary and generate assets, Generate YouTube title + description | `GEMINI_API_KEY` in `.env` |
 | YouTube Transcript API | `clip_extractor.py` | Fetch transcript from source interview | No secret required |
 | yt-dlp | `clip_extractor.py` | Download source interview video | No secret required |
 | AssemblyAI | `video_editor.py` | Word-level transcription for captions | `ASSEMBLYAI_API_KEY` |
 | ElevenLabs | `video_editor.py` | Optional TTS commentary/outro | `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` |
 | Google Drive API | `youtube_scheduler.py` | Pull completed videos from staging folder | OAuth client secret + token |
 | YouTube Data API | `youtube_scheduler.py`, `gen_token.py` | Upload videos and validate token/channel | OAuth client secret + token |
+
 
 ---
 
@@ -358,9 +357,7 @@ Depending on how you configure `youtube_scheduler.py`, you will typically need l
 
 ```text
 client_secret.json
-client_secret_sport.json
 token_interview.json
-token_interview_sport.json
 ```
 
 ### Using `gen_token.py`
